@@ -3,7 +3,7 @@
 </script>
 
 <template>
-
+    User Settings data
 </template>
 
 <style scoped>
