@@ -2,9 +2,8 @@
     <nav class="min-w-[200]">
         <div class="h-[80px] px-3 flex items-center gap-3">
             <Link href="/" >
-                <ApplicationLogo class="block h-9 w-auto fill-current text-gray-800"/>
-            </Link>
-            LaraStorage
+                <ApplicationLogo class="block h-24 w-auto fill-current text-gray-800"/>
+            </Link>EnvStorage
         </div>
 
         <div class="px-3">
