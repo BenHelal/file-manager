@@ -12,7 +12,7 @@
             <div class="py-3">
                 <NavLink href="/">My Files</NavLink>
                 <NavLink href="/">Shared with me</NavLink>
-                <NavLink href="/" :active="true">Shared by me</NavLink>
+                <NavLink href="/">Shared by me</NavLink>
                 <NavLink href="/">Trash</NavLink>
             </div>
         </div>
