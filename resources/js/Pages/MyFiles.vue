@@ -1,10 +1,10 @@
+<template>
+    {{$page.url}}
+</template>
+
 <script setup>
 
 </script>
-
-<template>
-
-</template>
 
 <style scoped>
 
