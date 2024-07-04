@@ -1,7 +1,7 @@
 <template xmlns="http://www.w3.org/1999/html">
     <nav class="min-w-[200]">
         <div class="h-[80px] px-3 flex items-center gap-3">
-            <Link href="/" >
+            <Link :href="route('myFiles')" >
                 <ApplicationLogo class="block h-24 w-auto fill-current text-gray-800"/>
             </Link>EnvStorage
         </div>
@@ -9,7 +9,7 @@
         <div class="px-3">
             <CreateNewDropdown/>
             <div class="py-3">
-                <NavLink href="/">My Files</NavLink>
+                <NavLink :href="route('myFiles')">My Files</NavLink>
                 <NavLink href="/">Shared with me</NavLink>
                 <NavLink href="/">Shared by me</NavLink>
                 <NavLink href="/">Trash</NavLink>
